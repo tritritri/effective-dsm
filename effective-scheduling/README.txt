@@ -1,5 +1,3 @@
-This is the short version of the complete code
-==============================================
 - To get the feeling of the code, you can run Exp4.java
 you should see some debug printout,
 the result is stored under directory Exp4-0.02
@@ -8,10 +6,9 @@ the result is stored under directory Exp4-0.02
 the next child is in UCT.java
 
 - The objective function for me is the simulation of the 
-whole system. See Exp4.java line 111 -- this is what you 
-definitely to change
+whole system. See Exp4.java line 111 
 
-- Another important parameter is \theta (in my paper Eq. 7)
+- Another important parameter is \theta (in the paper Eq. 7)
 or C in my code Exp4.java line 52. This parameter is used 
 to balance the exploration and exploitation.
 Higher \theta (or C) encourages more exploration. 
