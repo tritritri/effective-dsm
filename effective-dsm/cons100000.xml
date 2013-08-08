@@ -5,42 +5,7 @@
 see also appliances.xml
 
 created by: Tri Kurniawan Wijaya <tri-kurniawan.wijaya@epfl.ch>
-last modified: 29.02.2012
 
--->
-
-
-<!--
-v1.0: already captures shift and non-shifted appliances
-
-TODO:
-
-v2.0
-- describe utility
-- differentiation day of week
-
-v3.0 
-- privacy setting format
-
-v. not clear yet:
-- describing game model?
-
-v4.0
-- enable customer strategy definition by the means of declaratively
-
-? open questions:
-? how to simulate day-ahead or hourly-ahead
-
-* advantages:
-- thinking about minutes? instead of hours? crossing between hours?
-- day-to-day customer's electrity consumption behaviour for each appliance is changed
-- we fix the reqs for today and then find the opt scheduling
--->
-
-
-<!--
-29.02.2012
-v1.0
 -->
 
 <customers>
@@ -190,22 +155,3 @@ v1.0
 	
 </customers>
 
-<!-- 
-Agenda today:
-1. read the input.xml file
-2. put into the datastructure: vector?
-customer:
-	id = integer
-	type = integer
-	appliances vector
-		app1
-			- vector of hourly slot [integer] for availability
-			- vector array requirement [1]= 00:30, [2]=01:00			
-		app2
-		
-3. build the customers, init the load-value for each customers, calculate/display the total/overall load
-4. play the game, each customer do random schedule 10 times, look at the best price she/he get, apply this schedule. 
-Run it once, see the difference
-Run it until converge
-Plot the overall cost over #day
--->
