@@ -1,5 +1,5 @@
-effective-scheduling
-====================
+effective-dsm
+=============
 
 This the code for paper 
 Effective Consumption Scheduling for Demand-Side Management in the Smart Grid using Non-Uniform Participation Rate
